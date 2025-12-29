@@ -1,0 +1,45 @@
+
+Object Detection in Images (Cones & Parking Signs)
+This project contains Python code for object detection in static images, focusing on either cones or parking signs. The detection pipeline uses color segmentation, morphological filtering, and advanced feature extraction (HOG and LBP).
+
+Key features:
+
+Detects objects by color ranges in RGB/BGR images
+
+Extracts HOG (Histogram of Oriented Gradients) and LBP (Local Binary Patterns) features for classification and analysis
+
+Automatically draws bounding boxes around detected objects and saves processed results
+
+Easily configurable for new object types by adjusting color ranges and reference vectors
+
+Typical Usage:
+
+Cone detection in forest images for ecological monitoring
+
+Parking sign detection for smart cities and traffic analysis
+
+Educational datasets for machine learning experiments
+
+How it works:
+
+Loads images and reference feature vectors
+
+Segments objects based on specified color boundaries
+
+Applies morphological operations to refine segmentation
+
+Extracts features from detected regions (HOG, LBP)
+
+Compares detected objects to known samples or reference vectors
+
+Visualizes and saves results with bounding boxes
+
+Libraries used:
+
+NumPy
+
+OpenCV
+
+matplotlib
+
+scikit-image
