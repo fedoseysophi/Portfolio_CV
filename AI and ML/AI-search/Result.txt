@@ -1,0 +1,5 @@
+Result:
+Mean Recall@3: 0.85
+Mean MRR: 0.77
+Mean search time: 0.04 сек
+Mean answer time: 6.79 сек
